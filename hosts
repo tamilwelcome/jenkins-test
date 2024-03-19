@@ -1,0 +1,60 @@
+# If you have multiple hosts following a pattern you can specify
+# them like this:
+
+#www[001:006].example.com
+
+# Ex 3: A collection of database servers in the 'dbservers' group
+
+#[dbservers]
+#
+#db01.intranet.mydomain.net
+#db02.intranet.mydomain.net
+#10.25.1.56
+#10.25.1.57
+
+# Here's another example of host ranges, this time there are no
+# leading 0s:
+
+#db-[99:101]-node.example.com
+#
+#
+
+[VOC]
+#10.8.0.72
+
+[AMPCUMI]
+#10.8.0.73
+
+[iplon_test]
+#10.8.0.3
+
+[sircilla_updated_backup]
+#10.8.0.80
+#
+
+[testingiot66]
+#10.8.0.44
+
+#[indigrid-solar1]
+#10.8.0.81
+#10.8.0.82
+
+[indigridsolar83]
+#10.8.0.83
+
+[indigridsolar84]
+#10.8.0.84
+
+[indigridsolar87]
+#10.8.0.87
+
+[indigridsolar88]
+#10.8.0.88
+
+[musiri]
+#10.8.0.89
+
+[trueboard]
+#10.8.1.35
+#
+10.8.1.4
