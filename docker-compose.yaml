@@ -267,4 +267,4 @@ volumes:
     external: true
 
   promtail-lib:
-    external: 
+    external: true
